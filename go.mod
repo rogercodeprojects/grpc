@@ -1,4 +1,4 @@
-module grpc
+module github.com/rogercodeprojects/grpc
 
 go 1.17
 

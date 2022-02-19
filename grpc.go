@@ -8,7 +8,7 @@ import (
 type Server struct{
 }
 
-func (s *Server) Gopher(ctx context.Context, gopherRequest *GopherRequest) (*GopherReply, error){
+func (s *Server) GetGopher(ctx context.Context, gopherRequest *GopherRequest) (*GopherReply, error){
 	fmt.Println("hola El servidor a recibido la peticion")
 	return &GopherReply{ Message: "holaaa" }, nil
 }
